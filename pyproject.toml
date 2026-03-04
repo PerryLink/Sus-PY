@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sus-py"
+version = "0.1.0"
+description = "Static analyzer for detecting suspicious Python code"
+authors = ["PerryLink <novelnexusai@outlook.com>"]
+readme = "README.md"
+packages = [{include = "sus_py", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = "^0.9.0"
+rich = "^13.7.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[tool.poetry.scripts]
+sus = "sus_py.cli:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
