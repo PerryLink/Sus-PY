@@ -25,7 +25,8 @@ Don't let AI brick your OS. Scan before you run.
 ### Installation
 
 ```bash
-pip install sus-py
+pip install "git+https://github.com/PerryLink/Sus-PY.git"
+# (installs from source; not yet on PyPI)
 ```
 
 ### Basic Usage
@@ -176,7 +177,8 @@ Copyright 2026 Chance Dean <novelnexusai@outlook.com>
 ### 安装
 
 ```bash
-pip install sus-py
+pip install "git+https://github.com/PerryLink/Sus-PY.git"
+# （PyPI 未发布，源码直装）
 ```
 
 ### 基本用法
